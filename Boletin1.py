@@ -47,7 +47,10 @@ else:
 numero5 = input("Ingresa un número ")
 numero6 = input("Ingresa otro número ")
 
-for i in range (int(numero5), 0 -1):
-    for j in range (int(numero6), 0 -1):
+for i in range (numero5, 0, -1):
+    for j in range (numero6, 0, -1):
         if (i == j):
             print("El MCD de estos numeros es: " + str(i))
+            break
+    if (j == 1):
+        break
