@@ -69,3 +69,12 @@ for i in range (1, 100, +1):
     print (str(suma))
 
 #Ejercicio 10
+
+lista = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+suma2 = 0
+contador2 = 0
+for i in range (0, len(lista), +1):
+    suma2 = suma2 + lista[i]
+    contador2 = contador2 + 1
+promedio = suma2 / contador2
+print ("El promedio de la lista es: " + str(promedio))
